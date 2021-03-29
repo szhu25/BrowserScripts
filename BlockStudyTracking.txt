@@ -1,0 +1,16 @@
+! Title: Study Protection Filter
+! Description: Filter that blocks tracking from Chegg and other websites. Why do you need to know pages I viewed?
+
+! Chegg ajax requests
+||chegg.com/_ajax/
+||chegg.com/study/_ajax/
+
+! Chegg heartbeat
+||heartbeat-gateway.cheggnet.com
+
+! Chegg analytic script
+||analytics.chegg.com
+
+! Quizlet
+||el.quizlet.com
+||quizlet.com/webapi
