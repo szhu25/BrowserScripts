@@ -1,0 +1,80 @@
+# From Pi-Hole Commonly Whitelisted Domains
+# URL: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+# Last Checked: 7/17/2021 7:44 PM EDT
+## Google Services
+### Google Maps and other Google services
+@@||clients2.google.com
+@@||clients4.google.com
+### YouTube history
+@@||s.youtube.com 
+@@||video-stats.l.google.com
+### Google Play
+@@||android.clients.google.com
+### Android TV
+@@||redirector.gvt1.com
+## Microsoft Services
+### Windows Connectivity Test
+@@||www.msftncsi.com
+### Microsoft Web Pages
+@@||outlook.office365.com 
+@@||products.office.com 
+@@||c.s-microsoft.com 
+@@||i.s-microsoft.com 
+@@||login.live.com 
+@@||login.microsoftonline.com
+### Backup bitlocker recovery key
+@@||g.live.com
+### Microsoft Store
+@@||dl.delivery.mp.microsoft.com 
+@@||geo-prod.do.dsp.mp.microsoft.com 
+@@||displaycatalog.mp.microsoft.com
+### Windows 10 Update
+@@||sls.update.microsoft.com.akadns.net 
+@@||fe3.delivery.dsp.mp.microsoft.com.nsatc.net 
+@@||tlu.dl.delivery.mp.microsoft.com
+### Xbox Live
+@@||clientconfig.passport.net 
+### Xbox Full Functionality
+@@||xbox.ipv6.microsoft.com 
+@@||device.auth.xboxlive.com 
+@@||www.msftncsi.com 
+@@||title.mgt.xboxlive.com 
+@@||xsts.auth.xboxlive.com 
+@@||title.auth.xboxlive.com 
+@@||ctldl.windowsupdate.com 
+@@||attestation.xboxlive.com 
+@@||xboxexperiencesprod.experimentation.xboxlive.com 
+@@||xflight.xboxlive.com 
+@@||cert.mgt.xboxlive.com 
+@@||xkms.xboxlive.com 
+@@||def-vef.xboxlive.com 
+@@||notify.xboxlive.com 
+@@||help.ui.xboxlive.com 
+@@||licensing.xboxlive.com 
+@@||eds.xboxlive.com 
+@@||www.xboxlive.com 
+@@||v10.vortex-win.data.microsoft.com 
+@@||settings-win.data.microsoft.com
+### Microsoft Office
+@@||officeclient.microsoft.com
+## Captive-portal tests
+### Android/Chrome
+@@||connectivitycheck.android.com 
+@@||android.clients.google.com 
+@@||clients3.google.com 
+@@||connectivitycheck.gstatic.com
+### Windows/Microsoft
+@@||msftncsi.com 
+@@||www.msftncsi.com 
+@@||ipv6.msftncsi.com
+### iOS/Apple
+@@||captive.apple.com 
+@@||gsp1.apple.com 
+@@||www.apple.com 
+@@||www.appleiphonecell.com
+## Spotify
+@@||api-tv.spotify.com
+## NVIDIA GeForce Experience
+@@||gfwsl.geforce.com
+## Mozilla Firefox Tracking Protection
+@@||tracking-protection.cdn.mozilla.net
