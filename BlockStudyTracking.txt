@@ -1,5 +1,7 @@
 ! Title: Study Protection Filter
 ! Description: Filter that blocks tracking from Chegg and other websites. Why do you need to know pages I viewed?
+! Expires: 24 hours
+! Version: 20210328
 
 ! Chegg ajax requests
 ||chegg.com/_ajax/
