@@ -1,3 +1,7 @@
+! Title: PiHole Allowlist
+! Description: Pi-Hole Commonly allowlisted Domains
+! Expires: 72 hours 
+! Version: 20211125
 # From Pi-Hole Commonly Whitelisted Domains
 # URL: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
 # Last Checked: 7/17/2021 7:44 PM EDT
