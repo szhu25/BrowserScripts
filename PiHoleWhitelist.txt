@@ -1,10 +1,10 @@
 ! Title: PiHole Allowlist
 ! Description: Pi-Hole Commonly allowlisted Domains
 ! Expires: 72 hours 
-! Version: 20211125
+! Version: 20220321
 # From Pi-Hole Commonly Whitelisted Domains
 # URL: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
-# Last Checked: 7/17/2021 7:44 PM EDT
+# Last Checked: 3/21/2022 10:16 PM EDT
 ## Google Services
 ### Google Maps and other Google services
 @@||clients2.google.com
@@ -12,8 +12,21 @@
 ### YouTube history
 @@||s.youtube.com 
 @@||video-stats.l.google.com
+### YouTube App for iOS
+@@||www.googleapis.com 
+@@||youtubei.googleapis.com
+@@||oauthaccountmanager.googleapis.com
 ### Google Play
 @@||android.clients.google.com
+### Google Keep
+@@||reminders-pa.googleapis.com
+@@||firestore.googleapis.com
+### Google Fonts
+@@||gstaticadssl.l.google.com
+### Gmail
+@@||googleapis.l.google.com
+### Google Chrome (Ubuntu)
+@@||dl.google.com
 ### Android TV
 @@||redirector.gvt1.com
 ## Microsoft Services
@@ -36,9 +49,20 @@
 @@||sls.update.microsoft.com.akadns.net 
 @@||fe3.delivery.dsp.mp.microsoft.com.nsatc.net 
 @@||tlu.dl.delivery.mp.microsoft.com
+### MS Edge Browser Update
+@@||msedge.api.cdp.microsoft.com
 ### Xbox Live
 @@||clientconfig.passport.net 
-### Xbox Full Functionality
+#### Xbox Live Achievements
+@@||v10.events.data.microsoft.com
+@@||v20.events.data.microsoft.com
+#### Xbox Live Messaging
+@@||client-s.gateway.messenger.live.com
+#### Xbox Store App on Series X/S
+@@||arc.msn.com
+#### EA Play on Xbox
+@@||activity.windows.com
+###X Xbox Full Functionality
 @@||xbox.ipv6.microsoft.com 
 @@||device.auth.xboxlive.com 
 @@||www.msftncsi.com 
@@ -59,8 +83,35 @@
 @@||www.xboxlive.com 
 @@||v10.vortex-win.data.microsoft.com 
 @@||settings-win.data.microsoft.com
+### Skype
+@@||s.gateway.messenger.live.com 
+@@||client-s.gateway.messenger.live.com 
+@@||ui.skype.com 
+@@||pricelist.skype.com 
+@@||apps.skype.com 
+@@||m.hotmail.com 
+@@||sa.symcb.com 
+@@||s1.symcb.com
+@@||s2.symcb.com
+@@||s3.symcb.com
+@@||s4.symcb.com
+@@||s5.symcb.com
 ### Microsoft Office
 @@||officeclient.microsoft.com
+### Bing Maps
+@@||dev.virtualearth.net 
+@@||ecn.dev.virtualearth.net 
+@@||t0.ssl.ak.dynamic.tiles.virtualearth.net 
+@@||t0.ssl.ak.tiles.virtualearth.net
+## Apple
+### Apple Music
+@@||itunes.apple.com
+@@||s.mzstatic.com
+### Apple ID
+@@||appleid.apple.com
+### iOS Weather
+@@||gsp-ssl.ls.apple.com
+@@||gsp-ssl.ls-apple.com.akadns.net
 ## Captive-portal tests
 ### Android/Chrome
 @@||connectivitycheck.android.com 
@@ -77,6 +128,8 @@
 @@||www.apple.com 
 @@||www.appleiphonecell.com
 ## Spotify
+@@||spclient.wg.spotify.com
+@@||apresolve.spotify.com
 @@||api-tv.spotify.com
 ## NVIDIA GeForce Experience
 @@||gfwsl.geforce.com
