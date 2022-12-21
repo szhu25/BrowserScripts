@@ -44,6 +44,14 @@
 ## RFC 1918 address space 192.168.0.0/16
 ||168.192.in-addr.arpa^ 
 # Block IPv6 Private Network PTR
+## Unspecified
+||0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa^
+## Multicast
+||f.f.ip6.arpa^
+## Teredo
+||0.0.0.0.1.0.0.2.ip6.arpa^
+## Documentation prefix
+||8.b.d.0.1.0.0.2.ip6.arpa^
 ## RFC 4193 address space fc00::/7
 ||c.f.ip6.arpa^ 
 ## RFC 4193 address space fc00::/7
