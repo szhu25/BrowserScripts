@@ -1,10 +1,12 @@
 ! Title: PiHole Allowlist
 ! Description: Pi-Hole Commonly allowlisted Domains
 ! Expires: 72 hours 
-! Version: 20220321
+! Version: 20230104
 # From Pi-Hole Commonly Whitelisted Domains
-# URL: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
-# Last Checked: 3/21/2022 10:16 PM EDT
+# Discourse URL: https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+# Repo URL: https://github.com/stevenzhu25/BrowserScripts/blob/main/PiHoleWhitelist.txt
+# URL: https://raw.githubusercontent.com/stevenzhu25/BrowserScripts/main/PiHoleWhitelist.txt
+# Last Checked: 1/4/2023 6:30 PM EDT
 ## Google Services
 ### Google Maps and other Google services
 @@||clients2.google.com
@@ -32,6 +34,7 @@
 ## Microsoft Services
 ### Windows Connectivity Test
 @@||www.msftncsi.com
+@@||www.msftconnecttest.com
 ### Microsoft Web Pages
 @@||outlook.office365.com 
 @@||products.office.com 
@@ -131,7 +134,165 @@
 @@||spclient.wg.spotify.com
 @@||apresolve.spotify.com
 @@||api-tv.spotify.com
+## Target (Weekly Ads)
+@@||weeklyad.target.com 
+@@||m.weeklyad.target.com 
+@@||weeklyad.target.com.edgesuite.net
+## Facebook & Facebook Messenger
+@@||upload.facebook.com
+@@||creative.ak.fbcdn.net
+@@||external-lhr0-1.xx.fbcdn.net
+@@||external-lhr1-1.xx.fbcdn.net
+@@||external-lhr10-1.xx.fbcdn.net
+@@||external-lhr2-1.xx.fbcdn.net
+@@||external-lhr3-1.xx.fbcdn.net
+@@||external-lhr4-1.xx.fbcdn.net
+@@||external-lhr5-1.xx.fbcdn.net
+@@||external-lhr6-1.xx.fbcdn.net
+@@||external-lhr7-1.xx.fbcdn.net
+@@||external-lhr8-1.xx.fbcdn.net
+@@||external-lhr9-1.xx.fbcdn.net
+@@||fbcdn-creative-a.akamaihd.net
+@@||scontent-lhr3-1.xx.fbcdn.net
+@@||scontent.xx.fbcdn.net
+@@||scontent.fgdl5-1.fna.fbcdn.net
+@@||graph.facebook.com
+@@||b-graph.facebook.com
+@@||connect.facebook.com
+@@||cdn.fbsbx.com
+@@||api.facebook.com
+@@||edge-mqtt.facebook.com
+@@||mqtt.c10r.facebook.com
+@@||portal.fb.com
+@@||star.c10r.facebook.com
+@@||star-mini.c10r.facebook.com
+@@||b-api.facebook.com
+@@||fb.me
+@@||bigzipfiles.facebook.com
+@@||l.facebook.com
+@@||www.facebook.com
+@@||scontent-atl3-1.xx.fbcdn.net
+@@||static.xx.fbcdn.net
+@@||edge-chat.messenger.com
+@@||video.xx.fbcdn.net
+@@||external-ort2-1.xx.fbcdn.net
+@@||scontent-ort2-1.xx.fbcdn.net
+@@||edge-chat.facebook.com
+@@||scontent-mia3-1.xx.fbcdn.net
+@@||web.facebook.com
+@@||rupload.facebook.com
+@@||l.messenger.com
+## DirectTV
+@@||directvnow.com
+@@||directvapplications.hb.omtrdc.net
+@@||s.zkcdn.net
+@@||js.maxmind.com
+## Bild DE
+@@||www.asadcdn.com
+@@||code.bildstatic.de
+@@||de.ioam.de
+@@||json.bild.de
+@@||script.ioam.de
+@@||tags.tiqcdn.com
+@@||tagger.opecloud.com
+## Plex 
+### Plex owned Domains
+@@||plex.tv 
+@@||tvdb2.plex.tv 
+@@||pubsub.plex.bz 
+@@||proxy.plex.bz 
+@@||proxy02.pop.ord.plex.bz 
+@@||cpms.spop10.ams.plex.bz 
+@@||meta-db-worker02.pop.ric.plex.bz 
+@@||meta.plex.bz 
+@@||tvthemes.plexapp.com.cdn.cloudflare.net 
+@@||tvthemes.plexapp.com 
+@@||106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services 
+@@||meta.plex.tv 
+@@||cpms35.spop10.ams.plex.bz 
+@@||proxy.plex.tv 
+@@||metrics.plex.tv 
+@@||pubsub.plex.tv 
+@@||status.plex.tv 
+@@||www.plex.tv 
+@@||node.plexapp.com 
+@@||nine.plugins.plexapp.com 
+@@||staging.plex.tv 
+@@||app.plex.tv 
+@@||o1.email.plex.tv  
+@@||o2.sg0.plex.tv 
+@@||dashboard.plex.tv
+### Plex third-party domains
+@@||gravatar.com
+@@||thetvdb.com
+@@||themoviedb.com
+@@||chtbl.com
+## Sonarr
+@@||services.sonarr.tv 
+@@||skyhook.sonarr.tv 
+@@||download.sonarr.tv 
+@@||apt.sonarr.tv 
+@@||forums.sonarr.tv
+## Placehold.it
+@@||placehold.it 
+@@||placeholdit.imgix.net
+## Dropbox
+@@||dl.dropboxusercontent.com 
+@@||ns1.dropbox.com 
+@@||ns2.dropbox.com
+## Fox News
+@@||widget-cdn.rpxnow.com
+## Images on Marketwatch.com
+@@||s.marketwatch.com
+## GoDaddy webmail buttons
+@@||imagesak.secureserver.net
+## WatchESPN
+@@||fpdownload.adobe.com
+@@||entitlement.auth.adobe.com
+@@||livepassdl.conviva.com
 ## NVIDIA GeForce Experience
 @@||gfwsl.geforce.com
+## Videos not playing in times.com and nydailynews.com
+@@||delivery.vidible.tv
+@@||img.vidible.tv
+@@||videos.vidible.tv
+@@||edge.api.brightcove.com
+@@||cdn.vidible.tv
+## Videos not playing on weather.com
+@@||v.w-x.co
+## Moto phones OS updates
+@@||appspot-preview.l.google.com
+## Chevrolet
+@@||chevrolet.com
+## Origin (Savegame-Sync)
+@@||cloudsync-prod.s3.amazonaws.com
 ## Mozilla Firefox Tracking Protection
 @@||tracking-protection.cdn.mozilla.net
+## Reddit
+@@||styles.redditmedia.com
+@@||www.redditstatic.com
+@@||reddit.map.fastly.net
+@@||www.redditmedia.com
+@@||reddit-uploaded-media.s3-accelerate.amazonaws.com
+## Signal
+@@||ud-chat.signal.org
+@@||chat.signal.org
+@@||storage.signal.org
+@@||signal.org
+@@||www.signal.org
+@@||updates2.signal.org
+@@||textsecure-service-whispersystems.org
+@@||giphy-proxy-production.whispersystems.org
+@@||cdn.signal.org
+@@||whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
+@@||d83eunklitikj.cloudfront.net
+@@||souqcdn.com
+@@||cms.souqcdn.com
+@@||api.directory.signal.org
+@@||contentproxy.signal.org
+@@||turn1.whispersystems.org
+## Twitter
+@@||twitter.com
+@@||upload.twitter.com
+@@||api.twitter.com
+@@||mobile.twitter.com
