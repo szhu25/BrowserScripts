@@ -1,0 +1,20 @@
+! Title: TLD Blocklist
+! Description: Block specific TLDs from resolving.
+! Expires: 72 hours 
+! Version: 20230517
+## ZIP
+||*.zip^
+## MOV
+||*.mov^
+# Spamhaus
+# https://www.spamhaus.org/statistics/tlds/
+# As of 18 May 2023
+||*.rest^
+||*.degree^
+||*.hair^
+||*.live^
+||*.top^
+||*.beauty^
+||*.boats^
+||*.gq^
+||*.ml^
