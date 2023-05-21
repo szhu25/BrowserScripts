@@ -1,7 +1,7 @@
 ! Title: TLD Blocklist
 ! Description: Block specific TLDs from resolving.
 ! Expires: 72 hours 
-! Version: 20230517
+! Version: 20230520
 ## ZIP
 ||*.zip^
 ## MOV
@@ -18,3 +18,40 @@
 ||*.boats^
 ||*.gq^
 ||*.ml^
+# As of 5/20/2023
+||*.boston^
+||*.wiki^
+||*.name^
+||*.wtf^
+# GitHub
+## Basic
+## https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-6-
+||*.bid^
+||*.cfd^
+||*.discount^
+||*.gdn^
+||*.loan^
+||*.loans^
+||*.ooo^
+||*.sbs^
+||*.zip^
+## Some advanced
+||*.fit^
+||*.surf^
+||*.monster^
+||*.agency^
+||*.buzz^
+||*.cf^
+||*.dad^
+||*.esq^
+||*.foo^
+||*.ga^
+||*.gq^
+||*.ml^
+||*.mov
+||*.nexus
+||*.phd^
+||*.prof^
+||*.ru^
+||*.tk^
+||*.zone^
