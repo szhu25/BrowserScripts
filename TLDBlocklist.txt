@@ -1,14 +1,14 @@
 ! Title: TLD Blocklist
 ! Description: Block specific TLDs from resolving.
 ! Expires: 72 hours 
-! Version: 20230520
+! Version: 20230528
 ## ZIP
 ||*.zip^
 ## MOV
 ||*.mov^
 # Spamhaus
 # https://www.spamhaus.org/statistics/tlds/
-# As of 18 May 2023
+## As of 18 May 2023
 ||*.rest^
 ||*.degree^
 ||*.hair^
@@ -18,11 +18,14 @@
 ||*.boats^
 ||*.gq^
 ||*.ml^
-# As of 5/20/2023
+## As of 5/20/2023
 ||*.boston^
 ||*.wiki^
 ||*.name^
 ||*.wtf^
+## As of 5/28/2023
+||*.cyou^
+||*.dance^
 # GitHub
 ## Basic
 ## https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-6-
