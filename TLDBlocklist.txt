@@ -1,7 +1,7 @@
 ! Title: TLD Blocklist
 ! Description: Block specific TLDs from resolving.
 ! Expires: 72 hours 
-! Version: 20230528
+! Version: 20230707
 ## ZIP
 ||*.zip^
 ## MOV
@@ -51,8 +51,7 @@
 ||*.ga^
 ||*.gq^
 ||*.ml^
-||*.mov
-||*.nexus
+||*.nexus^
 ||*.phd^
 ||*.prof^
 ||*.ru^
